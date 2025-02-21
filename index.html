@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Vente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur notre boutique !</h1>
+    </header>
+
+    <main>
+        <div class="produits">
+            <div class="produit">
+                <img src="images/produit1.jpg" alt="Produit 1">
+                <h2>Produit 1</h2>
+                <p>Prix : 20€</p>
+                <button onclick="ajouterAuPanier('Produit 1', 20)">Ajouter au panier</button>
+            </div>
+
+            <div class="produit">
+                <img src="images/produit2.jpg" alt="Produit 2">
+                <h2>Produit 2</h2>
+                <p>Prix : 30€</p>
+                <button onclick="ajouterAuPanier('Produit 2', 30)">Ajouter au panier</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Mon Site de Vente</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
