@@ -1,27 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     text-align: center;
-    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    background-color: #f4f4f4;
 }
-
 header {
-    background: black;
+    background: #007bff;
     color: white;
     padding: 10px;
 }
-
 nav a {
+    margin: 0 10px;
     color: white;
-    margin: 10px;
     text-decoration: none;
-    font-weight: bold;
 }
-
-.hero {
-    padding: 50px;
+.form-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
     background: white;
-    border-radius: 10px;
-    margin: 20px;
+    box-shadow: 0px 0px 10px 0px #aaa;
 }
