@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Produit - Kara Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ajouter un Produit</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="admin.html">Tableau de bord</a>
+        </nav>
+    </header>
+    <section class="form-container">
+        <h2>Informations du produit</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Nom du produit" required>
+            <input type="text" id="product-price" placeholder="Prix" required>
+            <input type="text" id="product-description" placeholder="Description" required>
+            <input type="url" id="product-image" placeholder="URL de l'image" required>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
